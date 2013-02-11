@@ -14,6 +14,12 @@
 
     <key>Definitions</key>
     <dict>
+      <key>../.gitignore</key>
+      <dict>
+        <key>Path</key>
+        <string>gitignore</string>
+      </dict>
+
       <key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationdidFinishLaunchingWithOptions</key>
       <dict>
         <key>Beginning</key>
@@ -43,6 +49,7 @@
     <key>Kind</key>
     <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 
+    <!--
     <key>Options</key>
     <array>
       <dict>
@@ -64,11 +71,33 @@
         <key>SortOrder</key>
         <string>2</string>
 
+        <key>Units</key>
+        <dict>
+          <key>true</key>
+          <array>
+            <dict>
+              <key>Components</key>
+              <array>
+                <dict>
+
+                  <key>Identifier</key>
+                  <string>com.apple.dt.unit.cocoaTouchApplicationUnitTestBundle</string>
+
+                  <key>Name</key>
+                  <string>___PACKAGENAME___Tests</string>
+
+                </dict>
+              </array>
+            </dict>
+          </array>
+        </dict>
       </dict>
     </array>
+    -->
 
     <key>Nodes</key>
     <array>
+      <string>../.gitignore</string>
       <string>___PACKAGENAME___-Prefix.pch:Availability:iPhoneAvailability:3</string>
     </array>
 
