@@ -40,12 +40,12 @@
         <string>Views</string>
       </dict>
 
-      <key>Classes/View Controllers/.gitkeep</key>
+      <key>Classes/Controllers/.gitkeep</key>
       <dict>
         <key>Path</key>
         <string>gitkeep</string>
         <key>Group</key>
-        <string>View Controllers</string>
+        <string>Controllers</string>
       </dict>
 
       <key>../.gitignore</key>
@@ -75,7 +75,7 @@
         <integer>1</integer>
       </dict>
 
-      <key>___PACKAGENAME___/View Controllers/gitkeep</key>
+      <key>___PACKAGENAME___/Controllers/gitkeep</key>
       <dict>
         <key>Path</key>
         <string>gitkeep</string>
@@ -123,10 +123,10 @@
                 <dict>
 
                   <key>Identifier</key>
-                  <string>com.apple.dt.unit.cocoaTouchApplicationUnitTestBundle</string>
+                  <string>com.github.square.KIF</string>
 
                   <key>Name</key>
-                  <string>___PACKAGENAME___Tests</string>
+                  <string>IntegrationTests</string>
 
                 </dict>
               </array>
@@ -142,7 +142,7 @@
       <string>../.gitignore</string>
       <string>Classes/Categories/.gitkeep</string>
       <string>Classes/Views/.gitkeep</string>
-      <string>Classes/View Controllers/.gitkeep</string>
+      <string>Classes/Controllers/.gitkeep</string>
       <string>Classes/Models/.gitkeep</string>
       <string>___PACKAGENAME___-Prefix.pch:Availability:iPhoneAvailability:3</string>
     </array>
