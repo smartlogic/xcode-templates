@@ -64,6 +64,7 @@
     self.window = ___RP___[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]___AR___;
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];</string>
+
         <key>End</key>
 
         <string>    [self.window makeKeyAndVisible];
@@ -144,7 +145,6 @@
       <string>Classes/Views/.gitkeep</string>
       <string>Classes/Controllers/.gitkeep</string>
       <string>Classes/Models/.gitkeep</string>
-      <string>___PACKAGENAME___-Prefix.pch:Availability:iPhoneAvailability:3</string>
     </array>
 
   </dict>

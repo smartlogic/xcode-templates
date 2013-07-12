@@ -4,25 +4,30 @@
   <dict>
     <key>Identifier</key>
     <string>org.cocoapods.template.project.CocoaPods</string>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 
     <key>Name</key>
     <string>CocoaPods</string>
 
     <key>Definitions</key>
     <dict>
-      <key>../Podfile:platform</key>
-      <string>platform :ios
-</string>
-      <key>Group</key>
-      <string>Supporting Files</string>
-    </dict>
 
-    <key>Kind</key>
-    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+      <key>../Podfile:platform:ios</key>
+      <dict>
+        <key>Beginning</key>
+        <string>platform :ios</string>
+
+        <key>Group</key>
+        <string>Supporting Files</string>
+      </dict>
+
+    </dict>
 
     <key>Nodes</key>
     <array>
-      <string>../Podfile:platform</string>
+      <string>../Podfile:platform:ios</string>
     </array>
+
   </dict>
 </plist>
