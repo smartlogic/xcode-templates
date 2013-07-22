@@ -1,0 +1,5 @@
+#import <Kiwi/Kiwi.h>
+
+SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
+
+SPEC_END
