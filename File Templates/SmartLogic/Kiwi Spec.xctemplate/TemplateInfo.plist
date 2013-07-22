@@ -14,7 +14,7 @@
     </array>
 
     <key>DefaultCompletionName</key>
-    <string>NewKiwiSpec</string>
+    <string>MyClassSpec.m</string>
 
     <key>Description</key>
     <string>Kiwi spec file</string>
