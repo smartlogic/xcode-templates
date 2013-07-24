@@ -13,18 +13,25 @@
     <key>Definitions</key>
 
     <dict>
-      <key>../Podfile:platform:ios</key>
+      <key>../Podfile</key>
       <dict>
-        <key>Beginning</key>
-        <string>platform :ios</string>
         <key>Group</key>
         <string>Supporting Files</string>
+        <key>Beginning</key>
+        <string>platform :ios, "6.1"
+
+pod "AFNetworking"
+
+target :___PACKAGENAME___Tests, :exclusive => true do
+  pod "Kiwi"
+end
+</string>
       </dict>
     </dict>
 
     <key>Nodes</key>
     <array>
-      <string>../Podfile:platform:ios</string>
+      <string>../Podfile</string>
     </array>
 
   </dict>
