@@ -11,17 +11,15 @@
     <string>CocoaPods</string>
 
     <key>Definitions</key>
-    <dict>
 
+    <dict>
       <key>../Podfile:platform:ios</key>
       <dict>
         <key>Beginning</key>
         <string>platform :ios</string>
-
         <key>Group</key>
         <string>Supporting Files</string>
       </dict>
-
     </dict>
 
     <key>Nodes</key>
